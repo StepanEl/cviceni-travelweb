@@ -111,7 +111,8 @@ main {
 
 
 .chat {
- position: static;
+ 
+  position: sticky;
  z-index: 900;
  left: calc(100vw-10px);
   
