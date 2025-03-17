@@ -15,14 +15,14 @@ nav {
   margin: 0;
   padding: 5px;
   text-align: center;
-  
-  
+
+
 }
 
 nav img {
   width: 30px;
   height: 30px;
-  
+
 }
 
 .intro {
@@ -68,7 +68,7 @@ img {
 /* ---Your code starts here--- */
 
 nav {
-  position:fixed;
+  position: fixed;
   z-index: 900;
   /* všimni si, že při scrollování obsahem stránky navigace zůstává na vrchu viewportu  */
 }
@@ -111,12 +111,10 @@ main {
 
 
 .chat {
- 
-  position: sticky;
- z-index: 900;
- left: calc(100vw-10px);
-  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 900;
 
   /* malého chatbota na stránce vidíme pořád. Visí vpravo dole, 10px od okrajů */
 }
-
